@@ -1,0 +1,8 @@
+<div class="pdp-frame">
+    {{#each pdpViewModel.variations}}
+        <div class="pdp-row">
+            {{> price this.priceModel }}
+            {{> ordering this.buttonModel }}
+        </div>
+    {{/each}}
+</div>
